@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Message": "Welcome to First CI/CD Pipeline for Python and Docker with Approval Stage!"}
+    return {"Message": "Welcome to First CI/CD Pipeline for Python and Docker with Approval Stage..."}
 
 @app.get("/{name}")
 def read_root(name):
